@@ -1,0 +1,36 @@
+{
+  "name": "cowsay-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tsconfig/svelte": "^5.0.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "postcss-load-config": "^6.0.1",
+    "svelte": "^4.2.19",
+    "svelte-check": "^4.0.4",
+    "svelte-preprocess": "^6.0.3",
+    "tailwindcss": "^3.4.13",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "bits-ui": "^0.21.16",
+    "copy-to-clipboard": "^3.3.3",
+    "cowsay2": "^2.0.4",
+    "file-saver": "^2.0.5",
+    "lucide-svelte": "^0.449.0",
+    "pattern.css": "^1.0.0",
+    "svelte-spa-router": "^4.0.1"
+  }
+}
