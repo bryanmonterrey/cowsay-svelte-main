@@ -40,10 +40,10 @@
 <div class="mt-4 md:mt-8 flex flex-row items-center space-x-4">
   <a
     class="text-rose-500 underline"
-    href="https://github.com/shajidhasan/cowsay-svelte"
+    href="https://pump.fun/coin/9HbfWNgJvDfNKTiGfJcsnFkd95FGoAqsCXM2cvw7pump"
     rel="nofollow"
     target="_blank"
   >
-    GitHub
+    ca: 9HbfWNgJvDfNKTiGfJcsnFkd95FGoAqsCXM2cvw7pump
   </a>
 </div>
