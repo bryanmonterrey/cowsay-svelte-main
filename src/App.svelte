@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="min-h-screen flex flex-col items-center justify-center bg-gray-200 pattern-cross-dots-xl text-gray-300"
+  class="min-h-screen flex flex-col items-center justify-center bg-[#11111A] pattern-cross-dots-xl text-black"
 >
   <Router {routes} />
 </div>

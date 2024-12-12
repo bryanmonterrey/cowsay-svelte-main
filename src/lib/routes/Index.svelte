@@ -14,12 +14,12 @@
   let text: string, cow: Cow, colorScheme: ColorScheme;
 </script>
 
-<h1 class="font-mono text-4xl text-gray-600 mb-4 md:mb-8 font-medium">
+<h1 class="font-mono text-4xl text-[#DDDDDD] mb-4 md:mb-8 font-medium">
   {"<cowsay/>"}
 </h1>
 
 <div
-  class="w-full flex flex-col-reverse md:flex-row space-y-4 justify-center items-center md:space-x-8 md:space-y-0 text-gray-900"
+  class="w-full flex flex-col-reverse md:flex-row space-y-4 justify-center items-center md:space-x-8 md:space-y-0 text-[#DDDDDD]"
 >
   <div class="w-full p-4 md:p-0 md:w-80 lg:w-96 space-y-3">
     <TextInput bind:text />

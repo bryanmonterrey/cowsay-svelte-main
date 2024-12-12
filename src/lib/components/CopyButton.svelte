@@ -43,7 +43,7 @@
 
 <DropdownMenu.Root>
   <DropdownMenu.Trigger
-    class="text-white px-4 py-2 gap-2 rounded-md inline-flex items-center text-sm font-medium shadow-md bg-black opacity-50 hover:opacity-60 focus:outline focus:outline-1 focus:outline-red-500"
+    class="text-white px-4 py-2 gap-2 rounded-md inline-flex items-center text-sm font-medium shadow-md bg-black border border-[#DDDDDD] opacity-50 hover:opacity-60 focus:outline focus:outline-1 focus:outline-red-500"
   >
     <Copy class="size-4" />
     <span>Copy</span>

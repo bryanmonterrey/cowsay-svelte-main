@@ -22,16 +22,16 @@
 </script>
 
 <div>
-  <p class="text-gray-800 mb-1">Pick a character</p>
+  <p class="text-[#DDDDDD] mb-1">Pick a character</p>
 
   <Select.Root {onSelectedChange} items={cows} selected={cows[0]}>
     <Select.Trigger
       class="flex items-center w-full py-2 px-3 text-left bg-white rounded-lg shadow-md cursor-default focus:outline focus:outline-1 focus:outline-rose-500"
       aria-label="Select a character"
     >
-      <PawPrint class="mr-[9px] size-4 text-gray-600" />
-      <Select.Value placeholder="Select a character" />
-      <CaretUpDown class="ml-auto size-6 text-gray-600" />
+      <PawPrint class="mr-[9px] size-4 text-black" />
+      <Select.Value class="text-black" placeholder="Select a character" />
+      <CaretUpDown class="ml-auto size-6 text-black" />
     </Select.Trigger>
     <Select.Content
       class="w-full py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 focus:outline-none"
@@ -43,7 +43,7 @@
           let:isSelected
           value={cow_.value}
           label={cow_.label}
-          class="data-[highlighted]:text-rose-900 data-[highlighted]:bg-rose-100 text-gray-900 flex items-center cursor-default select-none relative py-2 pr-4"
+          class="data-[highlighted]:text-rose-900 data-[highlighted]:bg-rose-100 text-black flex items-center cursor-default select-none relative py-2 pr-4"
         >
           <Select.ItemIndicator asChild={false}>
             <Check class="size-5 mx-2" />

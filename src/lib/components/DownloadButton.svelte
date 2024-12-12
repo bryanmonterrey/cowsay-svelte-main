@@ -24,7 +24,7 @@
 
 <button
   on:click={download}
-  class="text-white px-4 py-2 rounded-md gap-2 inline-flex items-center text-sm font-medium shadow-md bg-black opacity-50 hover:opacity-60 focus:outline focus:outline-1 focus:outline-red-500"
+  class="text-white px-4 py-2 rounded-md gap-2 inline-flex items-center text-sm font-medium shadow-md bg-black border border-[#DDDDDD] opacity-50 hover:opacity-60 focus:outline focus:outline-1 focus:outline-red-500"
 >
   <Download class="size-4" />
   <span>Download</span>

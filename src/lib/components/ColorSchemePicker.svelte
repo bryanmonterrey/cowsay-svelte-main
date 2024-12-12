@@ -16,7 +16,7 @@
 </script>
 
 <div>
-  <p class="text-gray-800 mb-1">Pick a color scheme</p>
+  <p class="text-[#DDDDDD] mb-1">Pick a color scheme</p>
 
   <RadioGroup.Root
     class="flex flex-row flex-wrap gap-2"
